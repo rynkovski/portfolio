@@ -8,17 +8,13 @@ function App() {
   return (
     <>
       <div className="flex-col md:flex">
-        <div className="shadow-lg ">
-          <div className="max-w-7xl mx-auto p-4">
-            <Navbar />
-          </div>
-        </div>
+        <Navbar />
         <div className="max-w-7xl mx-auto">
           <Hero />
           <About />
           <Projects />
-          <Contact />
         </div>
+        <Contact />
       </div>
     </>
   );
