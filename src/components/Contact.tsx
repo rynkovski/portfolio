@@ -1,8 +1,11 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 const icons = [
-  { href: "github.com/rynkovski", icon: <Github size={32} /> },
-  { href: "github.com/rynkovski", icon: <Linkedin size={32} /> },
-  { href: "github.com/rynkovski", icon: <Mail size={32} /> },
+  { href: "https://github.com/rynkovski", icon: <Github size={32} /> },
+  // {
+  //   href: "https://pl.linkedin.com/in/karol-rynkowski-050022263",
+  //   icon: <Linkedin size={32} />,
+  // },
+  { href: "mailto:rynkowski.it@gmail.com", icon: <Mail size={32} /> },
 ];
 function Contact() {
   return (

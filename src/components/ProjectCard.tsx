@@ -1,11 +1,11 @@
-function ProjectCard() {
+type Image = any;
+
+function ProjectCard({ prop }: Image) {
   return (
     <div className="border w-80 h-auto my-2 p-4 flex flex-col">
-      <div className="border w-full h-64">
-        <img src="" alt="" />
-      </div>
+      <img className="border w-full  h-20" src={prop} alt="" />
       <h2 className="my-2 text-xl">Title</h2>
-      <p className="text-zinc-400 text-sm ">
+      <p className=" text-zinc-400 text-sm text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, esse.
         Ex sapiente beatae consequuntur molestiae? Earum doloribus esse laborum
         beatae eum ad ipsam omnis a, ea dolorem libero dignissimos natus.

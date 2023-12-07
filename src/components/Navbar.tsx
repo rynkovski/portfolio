@@ -44,23 +44,29 @@ function Navbar() {
             className={
               !nav
                 ? "hidden"
-                : "fixed top-0 left-0 w-full h-screen bg-zinc-50 flex flex-col justify-center items-center"
+                : "fixed md:hidden top-0 left-0 w-full h-screen bg-zinc-50 flex flex-col justify-center items-center"
             }
           >
             <ul className="flex flex-col text-center gap-8">
               <li className="text-4xl py-6 border-sky-600 hover:text-sky-600">
-                <a href="#about">About</a>
+                <a onClick={handleClick} href="#about">
+                  About
+                </a>
               </li>
               <li className="text-4xl py-6 border-sky-600 hover:text-sky-600">
-                <a href="#projects">Projects</a>
+                <a onClick={handleClick} href="#projects">
+                  Projects
+                </a>
               </li>
               <li className="text-4xl py-6 border-sky-600 hover:text-sky-600">
-                <a href="#contact">Contact</a>
+                <a onClick={handleClick} href="#contact">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
         </nav>
-      </div>{" "}
+      </div>
     </header>
   );
 }
