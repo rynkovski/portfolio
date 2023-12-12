@@ -17,7 +17,7 @@ const icons = [
 ];
 function Contact() {
   return (
-    <div id="contact" className="bg-sky-600 p-8">
+    <div id="contact" className="bg-sky-600 p-8 scroll-mb-10">
       <h2 className="text-white text-center py-4 text-xl">
         Choose <span className=" text-black">your</span> way to contact{" "}
         <span className=" text-black">me</span>
