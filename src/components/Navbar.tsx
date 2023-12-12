@@ -3,11 +3,17 @@ import { useState } from "react";
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  if (!nav) {
+    document.body.style.overflow = "auto";
+  } else {
+    document.body.style.overflow = "hidden";
+  }
+
   return (
     <header className="shadow-lg ">
-      <div className="fixed inset-x-0 top-0 z-50 backdrop-blur  duration-200 border-b  bg-zinc-900/0 border-transparent">
+      <div className="fixed inset-x-0 top-0 z-50 backdrop-blur duration-200 border-b  bg-zinc-900/0 border-transparent">
         <nav className="container flex flex-row items-center justify-between p-6 mx-auto">
-          <a href="/" className="text-2xl font-bold">
+          <a href="#" className="text-2xl font-bold">
             rynkowski<span className="text-sky-600">.dev</span>
           </a>
           {/* menu */}
@@ -48,17 +54,17 @@ function Navbar() {
             }
           >
             <ul className="flex flex-col text-center gap-8">
-              <li className="text-4xl py-6 border-sky-600 hover:text-sky-600">
+              <li className="text-6xl py-6 border-sky-600 hover:text-sky-600">
                 <a onClick={handleClick} href="#about">
                   About
                 </a>
               </li>
-              <li className="text-4xl py-6 border-sky-600 hover:text-sky-600">
+              <li className="text-6xl py-6 border-sky-600 hover:text-sky-600">
                 <a onClick={handleClick} href="#projects">
                   Projects
                 </a>
               </li>
-              <li className="text-4xl py-6 border-sky-600 hover:text-sky-600">
+              <li className="text-6xl py-6 border-sky-600 hover:text-sky-600">
                 <a onClick={handleClick} href="#contact">
                   Contact
                 </a>

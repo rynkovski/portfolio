@@ -21,7 +21,7 @@ function Hero() {
       <div className="w-64 relative flex items-center justify-center">
         <img
           className="rounded-3xl shadow-lg"
-          src="./photo.jpg"
+          src="./src/assets/photo.jpg"
           alt="Karol's photo"
         />
       </div>

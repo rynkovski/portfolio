@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div className="flex-col md:flex">
+      <div className="flex-col md:flex ">
         <Navbar />
         <div className="max-w-7xl mx-auto">
           <Hero />

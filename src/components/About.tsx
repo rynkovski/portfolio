@@ -4,10 +4,10 @@ function About() {
   return (
     <div
       id="about"
-      className="flex flex-col-reverse sm:flex-row justify-center items-center mt-4 py-20 md:py-20 border-b-2 mx-auto"
+      className="flex flex-col-reverse sm:flex-row justify-center items-center sm:items-start scroll-mt-10 py-8 border-b-2 mx-auto"
     >
-      <div className="flex flex-col text-center my-4 px-6 sm:w-1/2">
-        <h2 className="font-bold text-3xl my-2"> Tech stack:</h2>
+      <div className="flex flex-col justify-center items-center px-6 mt-6 sm:mt-0 sm:w-1/2">
+        <h2 className="font-bold text-3xl my-2 mb-6"> Tech stack:</h2>
         <Icons />
       </div>
       <div className="flex flex-col px-6 sm:w-1/2">
