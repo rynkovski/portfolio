@@ -9,7 +9,9 @@ type Image = {
 function ProjectCard({ image, title, text, linkCode, linkLive }: Image) {
   return (
     <div className="border w-80 h-[400px] my-2 p-4 flex justify-between flex-col">
-      <img className="border w-full aspect-[4:3]" src={image} alt="" />
+      <a href={linkLive}>
+        <img className="border w-full aspect-[4:3]" src={image} alt="" />
+      </a>
       <h2 className="my-2 text-xl">{title}</h2>
       <p className=" text-zinc-400 text-sm text-justify">{text}</p>
       <div className="flex justify-around items-center mt-2">
