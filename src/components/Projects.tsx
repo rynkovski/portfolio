@@ -24,12 +24,6 @@ const ProjectsData = [
     badges: ["React", "TypeScript", "TailwindCSS"],
     linkCode: "https://github.com/rynkovski/rest-countries-api",
   },
-  // {
-  //   image: "./images/task-management.png",
-  //   title: "Task Management App",
-  //   text: "Trello clone project on which I'm currently working on.",
-  //   badges: ["React", "TypeScript", "TailwindCSS"],
-  // },
 ];
 
 function Projects() {

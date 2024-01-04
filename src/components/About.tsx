@@ -4,15 +4,15 @@ function About() {
   return (
     <div
       id="about"
-      className="flex flex-col-reverse sm:flex-row justify-center items-center sm:items-start scroll-mt-10 py-8 border-b-2 mx-auto"
+      className="flex flex-col-reverse items-center justify-center py-8 mx-auto border-b-2 sm:flex-row sm:items-start scroll-mt-10"
     >
-      <div className="flex flex-col justify-center items-center px-6 mt-6 sm:mt-0 sm:w-1/2">
-        <h2 className="font-bold text-3xl my-2 mb-6"> Tech stack:</h2>
+      <div className="flex flex-col items-center justify-center px-6 mt-6 sm:mt-0 sm:w-1/2">
+        <h2 className="my-2 mb-6 text-3xl font-bold"> Tech stack:</h2>
         <Icons />
       </div>
       <div className="flex flex-col px-6 sm:w-1/2">
-        <h2 className="font-bold text-3xl my-2 text-center">About me</h2>
-        <div className="text-zinc-400 text-sm text-justify">
+        <h2 className="my-2 text-3xl font-bold text-center">About me</h2>
+        <div className="text-sm text-justify text-zinc-400">
           <p>
             Hello, I'm Karol Rynkowski, a frontend developer fueled by a passion
             for crafting delightful digital experiences. In my coding
@@ -21,10 +21,9 @@ function About() {
             on the excitement of staying ahead of the curve.
           </p>
           <p>
-            Away from the keyboard, you'll find me at the gym, embracing the
-            challenges of a healthy lifestyle. When not lifting weights, I'm a
-            travel enthusiast, exploring new places and taking inspiration from
-            diverse cultures.
+            I love traveling to new places, reading about the latest tech news,
+            and occasionally hitting the gym for a workout. It is the mix of
+            adventure, staying up-to-date and keeping fit that keeps me excited!
           </p>
           <p>
             Eager to contribute and make a mark, I am ready to tackle real-world
