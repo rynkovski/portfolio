@@ -17,18 +17,18 @@ const icons = [
 ];
 function Contact() {
   return (
-    <div id="contact" className="bg-sky-600 p-8 scroll-mb-10">
-      <h2 className="text-white text-center py-4 text-xl">
-        Choose <span className=" text-black">your</span> way to contact{" "}
-        <span className=" text-black">me</span>
+    <div id="contact" className="p-8 bg-sky-600 scroll-mb-10">
+      <h2 className="py-4 text-xl text-center text-white">
+        Choose <span className="text-black ">your</span> way to contact{" "}
+        <span className="text-black ">me</span>
       </h2>
       <ul className="flex items-center justify-center gap-16">
         {icons.map((icon) => {
           return (
-            <li>
+            <li key={icon.text}>
               <a
                 href={icon.href}
-                className="text-white hover:text-black text-center flex items-center flex-col"
+                className="flex flex-col items-center text-center text-white hover:text-black"
               >
                 {icon.icon}
                 <span className="cursor-pointer">{icon.text}</span>
