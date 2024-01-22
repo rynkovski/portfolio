@@ -7,7 +7,7 @@ function About() {
       className="flex flex-col-reverse items-center justify-center py-8 mx-auto border-b-2 sm:flex-row sm:items-start scroll-mt-10"
     >
       <div className="flex flex-col items-center justify-center px-6 mt-6 sm:mt-0 sm:w-1/2">
-        <h2 className="my-2 mb-6 text-3xl font-bold"> Tech stack:</h2>
+        <h2 className="my-2 mb-6 text-3xl font-bold"> Skills:</h2>
         <Icons />
       </div>
       <div className="flex flex-col px-6 sm:w-1/2">

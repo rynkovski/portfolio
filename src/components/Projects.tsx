@@ -11,7 +11,9 @@ const ProjectsData = [
       "TailwindCSS",
       "shadcn/ui",
       "zustand",
-      "React Query",
+      "Tanstack Query",
+      "React Router",
+      "REST API",
     ],
     linkCode:
       "https://github.com/KITHProject/gearwheel-frontend/tree/develop_v1",
@@ -21,8 +23,16 @@ const ProjectsData = [
     image: "./images/rest-countries-api.png",
     title: "Rest Countries API",
     text: "This is my solution to Frontend Mentor Challenge.",
-    badges: ["React", "TypeScript", "TailwindCSS"],
+    badges: ["React", "TypeScript", "TailwindCSS", "REST API", "React Router"],
     linkCode: "https://github.com/rynkovski/rest-countries-api",
+  },
+  {
+    image: "./images/Media Shop.jpeg",
+    title: "Media shop",
+    text: "This is a simple store website.",
+    badges: ["HTML", "CSS", "Javascript"],
+    linkCode: "https://github.com/rynkovski/media-shop",
+    linkLive: "https://media-shop.vercel.app/",
   },
 ];
 
