@@ -2,7 +2,23 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectsData = [
   {
-    image: "./images/gearwheel-frontend.png",
+    image: "./images/Task management.jpeg",
+    title: "ZenBoard",
+    text: "Task management app  based on kanban board.",
+    badges: [
+      "React",
+      "TypeScript",
+      "Chakra UI",
+      "zustand",
+      "Tanstack Query",
+      "Tanstack Router",
+      "Firebase",
+    ],
+    linkCode: "https://github.com/rynkovski/task-management",
+    linkLive: "https://task-management-gamma-eight.vercel.app/",
+  },
+  {
+    image: "./images/Gearwheel.jpeg",
     title: "Gearwheel",
     text: "Admin panel for cycling store.",
     badges: [
@@ -33,6 +49,14 @@ const ProjectsData = [
     badges: ["HTML", "CSS", "Javascript"],
     linkCode: "https://github.com/rynkovski/media-shop",
     linkLive: "https://media-shop.vercel.app/",
+  },
+  {
+    image: "./images/BudgetBuddy.jpeg",
+    title: "BudgetBuddy",
+    text: "Finance tracker app [in progress]",
+    badges: ["Next.js", "Material UI", "Supabase"],
+    linkCode: "",
+    linkLive: "",
   },
 ];
 

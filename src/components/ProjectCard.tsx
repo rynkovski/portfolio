@@ -18,7 +18,7 @@ function ProjectCard({
   linkLive,
 }: ProjectCard) {
   return (
-    <div className="border w-80 h-[400px] my-2 p-4 flex justify-between flex-col">
+    <div className="border w-80 h-[500px] my-2 p-4 flex justify-between flex-col">
       <a href={linkLive}>
         <img className="border w-full aspect-[4:3]" src={image} alt="" />
       </a>
