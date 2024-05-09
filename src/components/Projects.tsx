@@ -13,6 +13,7 @@ const ProjectsData = [
       "Tanstack Query",
       "Tanstack Router",
       "Firebase",
+      "Cypress",
     ],
     linkCode: "https://github.com/rynkovski/task-management",
     linkLive: "https://task-management-gamma-eight.vercel.app/",
@@ -20,7 +21,7 @@ const ProjectsData = [
   {
     image: "./images/Gearwheel.jpeg",
     title: "Gearwheel",
-    text: "Admin panel for cycling store.",
+    text: "Frontend for e-commerce admin panel.",
     badges: [
       "React",
       "TypeScript",
@@ -55,7 +56,7 @@ const ProjectsData = [
     title: "BudgetBuddy",
     text: "Finance tracker app [in progress]",
     badges: ["Next.js", "Material UI", "Supabase"],
-    linkCode: "",
+    linkCode: "https://github.com/rynkovski/finance-tracker-next",
     linkLive: "",
   },
 ];
@@ -64,7 +65,7 @@ function Projects() {
   return (
     <div id="projects" className="flex flex-col items-center py-8 scroll-mt-10">
       <h2 className="my-2 text-3xl font-bold"> Projects</h2>
-      <div className="flex flex-col flex-wrap items-center gap-8 justify-evenly md:flex-row">
+      <div className="flex flex-col flex-wrap items-center gap-8 my-2 justify-evenly md:flex-row">
         {ProjectsData.map((project) => {
           return (
             <ProjectCard
