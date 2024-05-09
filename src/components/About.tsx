@@ -12,26 +12,20 @@ function About() {
       </div>
       <div className="flex flex-col px-6 sm:w-1/2">
         <h2 className="my-2 text-3xl font-bold text-center">About me</h2>
-        <div className="text-sm text-justify text-zinc-400">
+        <div className="flex flex-col items-center justify-center w-4/5 gap-4 mx-auto my-4 text-sm text-justify text-slate-800">
           <p>
-            Hello, I'm Karol Rynkowski, a frontend developer fueled by a passion
-            for crafting delightful digital experiences. In my coding
-            adventures, I am constantly exploring new technologies and
-            methodologies. From the basics to cutting-edge frameworks, I thrive
-            on the excitement of staying ahead of the curve.
+            Hey, I'm Karol Rynkowski, a frontend developer who loves making cool
+            stuff online. I'm always learning about new tech and ways to make
+            things better, from the basics to the latest tools.
           </p>
           <p>
-            I love traveling to new places, reading about the latest tech news,
-            and occasionally hitting the gym for a workout. It is the mix of
-            adventure, staying up-to-date and keeping fit that keeps me excited!
+            When I'm not coding, I enjoy exploring new places, keeping up with
+            tech news, and hitting the gym. It's all about having fun and
+            staying healthy!
           </p>
           <p>
-            Eager to contribute and make a mark, I am ready to tackle real-world
-            challenges and bring creative solutions to the table. Join me on
-            this exciting journey of innovation and growth. I'm enthusiastic
-            about connecting with like-minded individuals, collaborating on
-            projects, and making a meaningful impact in the world of frontend
-            development.
+            I'm ready to take on challenges and bring fresh ideas to the table.
+            Let's team up, make cool stuff, and have a blast!
           </p>
         </div>
       </div>
