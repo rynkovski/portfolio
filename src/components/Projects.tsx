@@ -53,7 +53,7 @@ const ProjectsData = [
   },
   {
     image: "./images/BudgetBuddy.jpeg",
-    title: "BudgetBuddy",
+    title: "Budgetify",
     text: "Finance tracker app [in progress]",
     badges: ["Next.js", "Material UI", "Supabase"],
     linkCode: "https://github.com/rynkovski/finance-tracker-next",

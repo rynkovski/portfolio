@@ -18,7 +18,7 @@ function ProjectCard({
   linkLive,
 }: ProjectCard) {
   return (
-    <div className="border w-80 min-h-[500px]  p-4 flex justify-between flex-col rounded-lg">
+    <div className="border w-80 min-h-[500px]  p-4 flex justify-between flex-col rounded-lg bg-gray-100 shadow-md">
       <div className="flex justify-center items-center min-h-[206px]">
         <a href={linkLive}>
           <img className="border w-full  aspect-[4:3]" src={image} alt="" />
@@ -33,7 +33,6 @@ function ProjectCard({
           return <Badge key={badge}>{badge}</Badge>;
         })}
       </div>
-
       <div className="flex items-center justify-around mt-2">
         <a
           href={linkCode}
