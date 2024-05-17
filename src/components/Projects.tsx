@@ -57,7 +57,6 @@ const ProjectsData = [
     text: "Finance tracker app [in progress]",
     badges: ["Next.js", "Material UI", "Supabase"],
     linkCode: "https://github.com/rynkovski/finance-tracker-next",
-    linkLive: "",
   },
 ];
 
